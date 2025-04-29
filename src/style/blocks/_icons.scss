@@ -1,5 +1,5 @@
-@use 'variables' as *;
-@use '../utils/mixins' as *;
+@use "variables" as *;
+@use "../utils/mixins" as *;
 
 .icon {
   display: block;
@@ -12,6 +12,11 @@
   @include on-tablet {
     height: 32px;
     width: 32px;
+  }
+
+  @include on-dekstop {
+    width: 32px;
+    height: 32px;
   }
 
   &--phone {
