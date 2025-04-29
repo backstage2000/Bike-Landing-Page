@@ -1,0 +1,2 @@
+var e=document.querySelector(".icon--menu"),t=document.querySelector(".icon--close"),c=document.querySelector(".menu");e.addEventListener("click",function(){c.classList.add("active"),document.body.classList.add("disable-scroll")}),t.addEventListener("click",function(){c.classList.remove("active"),document.body.classList.remove("disable-scroll")}),document.querySelector(".contact__form").addEventListener("submit",function(e){this.checkValidity()&&(e.preventDefault(),alert("Form successfully submitted!"),this.reset())});
+//# sourceMappingURL=index.99252e4e.js.map
